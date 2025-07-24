@@ -108,6 +108,27 @@ header{
 
 /* plants section */
 
+.card-content{
+  margin-top: 120px;
+}
+.card-text{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-text h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.card-text p{
+  font-size: 22px;
+  margin-top: 16px;
+  width: 888px;
+
+}
+
+
 /* plants lover section */
 
 /* join section */
