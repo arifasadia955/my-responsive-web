@@ -198,8 +198,72 @@ header{
 }
 /* latest deal section */
 
+.banner-4{
+  margin-top: 132px;
+  text-align: center;
+}
+.banner-4 h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.banner-4 p{
+  font-size: 22px;
+  margin-top: 16px;
+}
+.banner-4-pic{
+  margin-top: 120px;
+  display: grid;
+  grid-template-areas: 
+  "img-1 img-3 img-3"
+  "img-2 img-3 img-3";
+  row-gap: 25px;
+  column-gap: 28px;
+  
+}
+.img-1{
+  grid-area: img-1;
+}
+.img-2{
+  grid-area: img-2;
+}
+.img-3{
+  grid-area: img-3;
+}
+.image{
+  border-radius: 14px;
 
+}
+img{
+  position: relative;
+}
+.img-text-1{
+  position: absolute;
+  top: 3225px;
+  left: 710px;
 
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-text-1 a{
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.white{
+  color: #FFFFFF;
+}
+.img-text-2{
+  position: absolute;
+  top: 3450px;
+  left: 710px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-text-2 a{
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;  
+}
 
 /* join section */
 
@@ -262,6 +326,7 @@ footer{
 .footer-links ul{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  /* grid-template-columns:; */
   row-gap: 32px;
   /* justify-content:; */
   list-style: none;
