@@ -165,8 +165,30 @@ header{
 
 /* plants lover section */
 
+.banner-2{
+  margin-top: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+/* .banner-2-text{
+  background-color: #8987A1;
+} */
+.banner-2-text h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.banner-2-list{
+  padding-left:  30px;
+  
 
+}
+.banner-2-list li{
+  margin-top: 20px;
+  font-size: 22px;
 
+}
 
 /* join section */
 
