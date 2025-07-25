@@ -49,7 +49,6 @@ header , main{
 
 /* header section */
 header{
-  /* background-color: aquamarine; */
   margin-top: 30px;
 }
 /* navbar section */
@@ -167,12 +166,6 @@ header{
 }
 .card-items{
   margin-top: 49px;
-  /* display: flex;
-  justify-content:space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 20px;
-  row-gap: 30px; */
   display: grid;
   grid-template-columns: repeat(4,1fr);
   column-gap: 20px;
@@ -419,9 +412,7 @@ img{
 }
 .input{
   margin-top: 23px;
-  /* display: flex; */
 border-width: 0;
-/* background-color: #8987A1; */
   
 }
 #email{
@@ -461,9 +452,6 @@ footer{
 
 }
 .footer{
-  /* display: flex;
-  justify-content: space-between; */
-  /* width: 1120px; */
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 90px;
@@ -480,9 +468,7 @@ footer{
 .footer-links ul{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  /* grid-template-columns:; */
   row-gap: 32px;
-  /* justify-content:; */
   list-style: none;
   
 }
@@ -498,7 +484,6 @@ footer{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 24px;
-  /* justify-content: center; */
   height: 36px;
   align-items: center;
   
@@ -523,9 +508,6 @@ footer{
     flex-direction: column;
     
   }
-  /* .footer-links .hidden a{
-    display: inline-block;
-  } */
   .footer-icon{
     display: flex;
     flex-direction: row;
